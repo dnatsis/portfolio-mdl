@@ -10,7 +10,8 @@ class Skills extends Component {
             Java | Javascript | AWS | React | Express | NodeJS | MSSQL | MongoDB
           </p>
           <p>
-            Android Studio | Azure DevOPS | C# | OOP | TDD | MVC | Automation
+            Android Studio | Azure DevOPS | C# | OOP | TDD | MVC | Automation |
+            HTML/CSS
           </p>
         </Cell>
       </Grid>

@@ -13,11 +13,14 @@ function LandingPage() {
             <h1>Software Developer</h1>
             <hr />
 
-            <p>Java | JavaScript | React | HTML/CSS | NodeJS | Express | SQL</p>
+            <p>
+              Java | JavaScript | AWS | React | HTML/CSS | NodeJS | Express |
+              SQL
+            </p>
 
             <div className="social-links">
               <a
-                href="http://google.com"
+                href="https://www.linkedin.com/in/dhimitris-natsis-51b578180/"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -25,11 +28,18 @@ function LandingPage() {
               </a>
 
               <a
-                href="http://google.com"
+                href="https://github.com/dnatsis"
                 rel="noopener noreferrer"
                 target="_blank"
               >
                 <i className="fa fa-github-square" aria-hidden="true" />
+              </a>
+              <a
+                href="https://gitlab.com/dnatsis"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <i className="fa fa-git-square" aria-hidden="true" />
               </a>
             </div>
           </div>

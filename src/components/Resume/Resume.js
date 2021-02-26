@@ -83,6 +83,31 @@ function Resume() {
             concerning system operations and methods/procedures for pushing changes using
             an open source ticketing system."
           />
+          <Experience
+            startYear={2021}
+            endYear={2021}
+            jobName="Personal Project | MERN Stack Todo List Application"
+            jobDescription="Learned the Mern stack by building a basic CRUD app. Gained the skills to build a full stack applications 
+            using React and JS and connecting it to a backend using Express and NodeJS. Learned to setup a MongoDB database and how to perform basic CRUD
+            operations on the DB. Gained experience in connecting the front end with the backend using Axios. Learned how to use Bootstrap to make
+            interactive UI's that perform well in both Desktop and Mobile applications."
+          />
+          <Experience
+            startYear={2021}
+            endYear={2021}
+            jobName="Personal Project | Portfolio"
+            jobDescription="Expanded my knowledge of React and JS by creating a front end web application that performs well on all systems. Learned and utilized 
+            Google's Material Design to build a responsive UI. Learned to deploy the webpage using GitHub Pages"
+          />
+          <Experience
+            startYear={2021}
+            endYear={2021}
+            jobName="Personal Project | Video Library Using React, AWS, and Java on the Backend"
+            jobDescription="Built a full stack application using React on the frontend, Java on the backend and AWS S3 to store all files uploaded. Learned how to use
+            the AWS SDK to connect a java backend to AWS. Used my knowledge of AWS to create an S3 bucket and connect it to the Java backend. Leveraged my knowledge of
+            React to create a frontend that would allow users to upload there video files to the cloud. Connected
+            the frontend and backend using Axios, and sent the information from the front end to the Java backend and ultimately to AWS."
+          />
           <hr style={{ borderTop: '3px solid #e22947' }} />
           <h2>Skills</h2>
           <Skills />
