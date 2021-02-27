@@ -7,7 +7,11 @@ function LandingPage() {
     <div className="landing">
       <Grid className="landing-grid">
         <Cell col={12}>
-          <img src="Images/avatar.png" alt="Avatar" className="avatar-img" />
+          <img
+            src="https://i.ibb.co/8PvWjFY/avatar.png"
+            alt="Avatar"
+            className="avatar-img"
+          />
 
           <div className="banner-text">
             <h1>Software Developer</h1>

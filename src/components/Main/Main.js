@@ -9,6 +9,7 @@ import Resume from '../Resume/Resume';
 function Main() {
   return (
     <Switch>
+      <Route exact path="/portfolio-mdl" component={LandingPage} />
       <Route exact path="/" component={LandingPage} />
       <Route path="/aboutme" component={AboutMe} />
       <Route path="/contact" component={Contact} />

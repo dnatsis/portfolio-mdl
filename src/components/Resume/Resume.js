@@ -13,7 +13,7 @@ function Resume() {
           <div style={{ textAlign: 'center' }}>
             <img
               className="avatar-image"
-              src="Images/avatar.png"
+              src="https://i.ibb.co/8PvWjFY/avatar.png"
               alt="avatar"
             />
           </div>

@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 import Main from './components/Main/Main';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import { Link } from 'react-router-dom';
@@ -9,7 +10,7 @@ function App() {
       <Layout>
         <Header className="header-color" title="Dhimitris Portfolio" scroll>
           <Navigation>
-            <Link to="/">Home</Link>
+            <Link to="/portfolio-mdl">Home</Link>
             <Link to="/resume">Resume</Link>
             <Link to="/projects">Projects</Link>
             <Link to="/contact">Contact</Link>
@@ -17,7 +18,7 @@ function App() {
         </Header>
         <Drawer title="Dhimitris Portfolio">
           <Navigation>
-            <Link to="/">Home</Link>
+            <Link to="/portfolio-mdl">Home</Link>
             <Link to="/resume">Resume</Link>
             <Link to="/projects">Projects</Link>
             <Link to="/contact">Contact</Link>
