@@ -9,7 +9,7 @@ function Contact() {
         <Cell col={6}>
           <h2>Dhimitris Natsis</h2>
           <img
-            src="https://i.ibb.co/8PvWjFY/avatar.png"
+            src="https://i.ibb.co/mCxBhsW/avatar.png"
             alt="Avatar"
             style={{ height: '250px' }}
           />

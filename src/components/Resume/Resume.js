@@ -13,7 +13,7 @@ function Resume() {
           <div style={{ textAlign: 'center' }}>
             <img
               className="avatar-image"
-              src="https://i.ibb.co/8PvWjFY/avatar.png"
+              src="https://i.ibb.co/mCxBhsW/avatar.png"
               alt="avatar"
             />
           </div>
@@ -73,6 +73,17 @@ function Resume() {
             Associate Certification(SAA-C02)."
           />
           <Experience
+            startYear={2021}
+            endYear={2021}
+            jobName="Personal Project | MERN Stack eCommerce Web Application"
+            jobDescription="Built a full featured shopping cart with checkout process including incorporating the PayPal API to handle
+            payments. Built a robust backend with multiple Models and Schemas as well as Controllers and routes for handling any type of CRUD request.
+            Created User Login and Authentication using JWT to reach private routes as well as protected routes for the Admin. Created an Admin area to
+            manage products, categories, and users. Extensively used Redux for managing global state of Products, Users, and Categories and React Hooks for
+            managing Component level state. Added Item Pagination, Item search, and a top items carousel. Created custom Middleware for authentication, 
+            and custom error handling."
+          />
+          <Experience
             startYear={2017}
             endYear={2018}
             jobName="Senior Project | Open MRS - Open Source Contributer"
@@ -99,15 +110,7 @@ function Resume() {
             jobDescription="Expanded my knowledge of React and JS by creating a front end web application that performs well on all systems. Learned and utilized 
             Google's Material Design to build a responsive UI. Learned to deploy the webpage using GitHub Pages"
           />
-          <Experience
-            startYear={2021}
-            endYear={2021}
-            jobName="Personal Project | Video Library Using React, AWS, and Java on the Backend"
-            jobDescription="Built a full stack application using React on the frontend, Java on the backend and AWS S3 to store all files uploaded. Learned how to use
-            the AWS SDK to connect a java backend to AWS. Used my knowledge of AWS to create an S3 bucket and connect it to the Java backend. Leveraged my knowledge of
-            React to create a frontend that would allow users to upload there video files to the cloud. Connected
-            the frontend and backend using Axios, and sent the information from the front end to the Java backend and ultimately to AWS."
-          />
+
           <hr style={{ borderTop: '3px solid #e22947' }} />
           <h2>Skills</h2>
           <Skills />

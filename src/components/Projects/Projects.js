@@ -33,6 +33,33 @@ class Projects extends Component {
                   'url(https://frontendmasters.com/static-assets/learn/og-learning-path-react.jpg) center / cover',
               }}
             >
+              MERN Stack eCommerce Web Application
+            </CardTitle>
+            <CardText>
+              eCommerce application built using the MERN Stack
+            </CardText>
+            <CardActions border>
+              <Button colored>
+                <a href="https://github.com/dnatsis/webshop" target="blank">
+                  GitHub
+                </a>
+              </Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+            <CardTitle
+              style={{
+                color: 'white',
+                height: '175px',
+                background:
+                  'url(https://frontendmasters.com/static-assets/learn/og-learning-path-react.jpg) center / cover',
+              }}
+            >
               React Portfolio
             </CardTitle>
             <CardText>
@@ -66,42 +93,15 @@ class Projects extends Component {
               MERN Stack Todo-List
             </CardTitle>
             <CardText>
-              Todo-List application built using MERN and Bootstrap
+              Todo-List application built using MERN, Redux and Bootstrap
             </CardText>
             <CardActions border>
               <Button colored>
-                <a href="https://github.com/dnatsis/mern-todo" target="blank">
+                <a href="https://github.com/dnatsis/todo" target="blank">
                   GitHub
                 </a>
               </Button>
               <Button colored>Live Demo</Button>
-            </CardActions>
-            <CardMenu style={{ color: '#fff' }}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
-
-          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle
-              style={{
-                color: 'white',
-                height: '175px',
-                background:
-                  'url(https://frontendmasters.com/static-assets/learn/og-learning-path-react.jpg) center / cover',
-              }}
-            >
-              MERN Stack Todo-List Backend
-            </CardTitle>
-            <CardText>Todo-List application backend</CardText>
-            <CardActions border>
-              <Button colored>
-                <a
-                  href="https://github.com/dnatsis/mern-todo-backend"
-                  target="blank"
-                >
-                  GitHub
-                </a>
-              </Button>
             </CardActions>
             <CardMenu style={{ color: '#fff' }}>
               <IconButton name="share" />
