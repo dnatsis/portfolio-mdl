@@ -90,10 +90,10 @@ class Projects extends Component {
                   'url(https://frontendmasters.com/static-assets/learn/og-learning-path-react.jpg) center / cover',
               }}
             >
-              MERN Stack Todo-List
+              MERN Stack Todo-Doro
             </CardTitle>
             <CardText>
-              Todo-List application built using MERN, Redux and Bootstrap
+              Todo-List application with a Pomodoro. built using MERN, Redux and Bootstrap
             </CardText>
             <CardActions border>
               <Button colored>
