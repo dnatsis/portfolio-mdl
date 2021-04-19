@@ -44,7 +44,49 @@ class Projects extends Component {
                   GitHub
                 </a>
               </Button>
-              <Button colored>Live Demo</Button>
+              <Button colored>
+                <a
+                  href="https://webshop-dhimitrisapps.herokuapp.com/"
+                  target="blank"
+                >
+                  Live Demo
+                </a>
+              </Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+            <CardTitle
+              style={{
+                color: 'white',
+                height: '175px',
+                background:
+                  'url(https://frontendmasters.com/static-assets/learn/og-learning-path-react.jpg) center / cover',
+              }}
+            >
+              MERN Stack Todo-Doro
+            </CardTitle>
+            <CardText>
+              Todo-List application with a Pomodoro. built using MERN, Redux and
+              Bootstrap
+            </CardText>
+            <CardActions border>
+              <Button colored>
+                <a href="https://github.com/dnatsis/todo" target="blank">
+                  GitHub
+                </a>
+              </Button>
+              <Button colored>
+                <a
+                  href="https://tododoro-dhimitrisapps.herokuapp.com/"
+                  target="blank"
+                >
+                  Live Demo
+                </a>
+              </Button>
             </CardActions>
             <CardMenu style={{ color: '#fff' }}>
               <IconButton name="share" />
@@ -74,34 +116,14 @@ class Projects extends Component {
                   GitHub
                 </a>
               </Button>
-              <Button colored>Live Demo</Button>
-            </CardActions>
-            <CardMenu style={{ color: '#fff' }}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
-
-          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle
-              style={{
-                color: 'white',
-                height: '175px',
-                background:
-                  'url(https://frontendmasters.com/static-assets/learn/og-learning-path-react.jpg) center / cover',
-              }}
-            >
-              MERN Stack Todo-Doro
-            </CardTitle>
-            <CardText>
-              Todo-List application with a Pomodoro. built using MERN, Redux and Bootstrap
-            </CardText>
-            <CardActions border>
               <Button colored>
-                <a href="https://github.com/dnatsis/todo" target="blank">
-                  GitHub
+                <a
+                  href="https://dnatsis.github.io/portfolio-mdl"
+                  target="blank"
+                >
+                  Live Demo
                 </a>
               </Button>
-              <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{ color: '#fff' }}>
               <IconButton name="share" />
