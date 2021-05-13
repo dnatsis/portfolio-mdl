@@ -8,7 +8,7 @@ function LandingPage() {
       <Grid className="landing-grid">
         <Cell col={12}>
           <img
-            src="https://i.ibb.co/mCxBhsW/avatar.png"
+            src="https://ibb.co/M7jFfp6"
             alt="Avatar"
             className="avatar-img"
           />
